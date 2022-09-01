@@ -1,13 +1,13 @@
 .float-container {
-    border: 3px solid #fff;
     padding: 20px;
+    background-color: rgb(230, 231, 240);
 }
 
 .float-child {
     width: 50%;
     float: left;
     padding: 20px;
-    border: 2px solid white;
+    background-color: rgb(230, 231, 240);
 } 
 
 .footer{
@@ -57,8 +57,10 @@
     }
 
 .bil{
-    padding-left:  10px;
-    background-color: antiquewhite;
+    box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: rgb(231, 224, 232);
+	border-radius: 4px;
+	padding: 10px;
 }
 
 .fixed{
@@ -66,6 +68,13 @@
     height: 500px;
 }
 
-.box{
+.box-element{
+	box-shadow:hsl(0, 0%, 80%) 0 0 16px;
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 10px;
+}
+
+body{
     background-color: rgb(230, 231, 240);
 }
