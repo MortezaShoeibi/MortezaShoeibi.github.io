@@ -110,17 +110,23 @@ ul {
 .wrapper {
     width: 70em;
     border: 0em solid;
-    overflow: hidden; /* will contain if #first is longer than #second */
+    overflow: hidden;
 }
+
 .first {
     width: 35em;
-    float:right;
+    float: left;
     border: 0em solid;
 }
+
 .second {
     width: 35em;
-    float:right;
+    float: right;
     border: 0em solid;
+}
+
+.card {
+    background-color: var(--box-bgcolor);
 }
 
 body {
