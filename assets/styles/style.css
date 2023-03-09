@@ -107,6 +107,22 @@ ul {
     padding: 10px;
 }
 
+.wrapper {
+    width: 70em;
+    border: 0em solid;
+    overflow: hidden; /* will contain if #first is longer than #second */
+}
+.first {
+    width: 35em;
+    float:right;
+    border: 0em solid;
+}
+.second {
+    width: 35em;
+    float:right;
+    border: 0em solid;
+}
+
 body {
     background-color: var(--body-bgcolor);
     color: var(--body-color);
