@@ -135,6 +135,11 @@ ul {
     background-color: var(--box-bgcolor);
 }
 
+.seo-content {
+    background-color: var(--body-bgcolor);
+    color: var(--body-bgcolor);
+}
+
 body {
     background-color: var(--body-bgcolor);
     color: var(--body-color);
