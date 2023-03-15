@@ -31,10 +31,16 @@
 }
 
 
-#icon {
+#icon-en {
     width: 30px;
     cursor: pointer;
 }
+
+#icon-fa {
+    width: 30px;
+    cursor: pointer;
+}
+
 
 ul {
     flex: 1;
