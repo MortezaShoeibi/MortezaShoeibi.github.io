@@ -144,3 +144,7 @@ body {
     background-color: var(--body-bgcolor);
     color: var(--body-color);
 }
+
+i {
+    padding: 18px 18px 18px 18px;
+}
