@@ -148,3 +148,40 @@ body {
 i {
     padding: 18px 18px 18px 18px;
 }
+
+#typing {
+    padding: 10px;
+    font-size: 2.5vw;
+    white-space: nowrap;
+    overflow: hidden;
+    min-height: 80px;
+    width: 100%;
+    max-width: 1500px;    
+}
+
+.profile {
+    margin: 40px 10px 10px 2vw;
+    width: 5vw;
+    height: 5vw;
+}
+
+.cprofile {
+    margin-left: 3vw;
+}
+
+.card-text {
+    color: var(--body-color);
+}
+
+.book {
+    width: 50vw;
+    height: 32vw;
+}
+
+.cbook {
+    margin-left: 17vw;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-top: 2.5vw;
+    font-size: 1.5vw;
+}
