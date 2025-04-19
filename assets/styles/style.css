@@ -1,187 +1,61 @@
-.float-container {
-    padding: 20px;
-    background-color: var(--float-bgcolor);
+@font-face {
+    font-family: 'IranNastaliq';
+    src: url('../fonts/IranNastaliq.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
-.float-child {
-    width: 50%;
-    float: left;
-    padding: 20px;
-    background-color: var(--float-bgcolor);
-}
-
-:root {
-    --body-bgcolor: #F4F6FF;
-    --body-color: #000000;
-    --float-bgcolor: #F4F6FF;
-    --footer-bgcolor: #F5F5F5;
-    --box-shadow: #BBBFCA 0 0 20px;
-    --bill-bgcolor: #dedbea;
-    --box-bgcolor: #F7FBFC;
-}
-
-.dark-mode {
-    --body-bgcolor: #121212;
-    --body-color: rgb(230, 231, 240);
-    --float-bgcolor: #121212;
-    --footer-bgcolor: #110236;
-    --box-shadow: #181818 0 0 20px;
-    --bill-bgcolor: #171d23;
-    --box-bgcolor: #1f1b24;
+@font-face {
+    font-family: 'B Zar';
+    src: url('../fonts/B\ Zar.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
 
-#icon-en {
-    width: 30px;
-    cursor: pointer;
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
 
-#icon-fa {
-    width: 30px;
-    cursor: pointer;
+.typing-container {
+    min-height: 2.5rem;
+}
+
+.hndlbtns {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  'Inter', 'B Zar', 'Roboto', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 0.05em; 
+}
+
+.hndlbtns:hover {
+    --glow-color: rgba(139, 92, 246, 0.5);
+    --glow-spread: 0 0 15px 5px var(--glow-color);
+    box-shadow: var(--glow-spread);
+}
+
+.shadow-glow {
+    box-shadow: 0 0 15px 5px rgba(139, 92, 246, 0.5);
 }
 
 
-ul {
-    flex: 1;
+@media (max-width: 640px) {
+    .hndlbtns {
+        padding: 20pt 20pt 20pt 20pt;
+        font-size: 0.875rem; 
+    }
 }
 
-.footer {
-    width: 100%;
-    padding: 10px;
-    background-color: var(--footer-color);
-    background-image: url('../img/map-dots.png');
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    line-height: 2;
-
+html {
+    scroll-behavior: smooth;
 }
 
-.footer {
-    width: 100%;
-    padding: 10px;
-}
-
-.footer {
-    display: table;
-    color: var(--footer-color);
-    padding: 10px;
-    font-size: 18px;
-}
-
-.footer {
-    padding: 10px;
-    color: var(--footer-color);
-}
-
-.footer {
-    color: var(--footer-color);
-    font-size: 13px;
-}
-
-.footer {
-    content: "\f00c";
-    font-family: "FontAwesome";
-    padding-left: 5px;
-    font-size: 10px;
-    color: var(--footer-color);
-}
-
-.footer {
-    padding-left: 5px;
-    font-size: 12px;
-    color: var(--footer-color);
-}
-
-.bil {
-    box-shadow: var(--box-shadow);
-    background-color: var(--bill-bgcolor);
-    border-radius: 4px;
-    padding: 10px;
-}
-
-.fixed {
-    width: 1000px;
-    height: 500px;
-}
-
-.box-element {
-    box-shadow: var(--box-shadow);
-    background-color: var(--box-bgcolor);
-    border-radius: 4px;
-    padding: 10px;
-}
-
-.wrapper {
-    width: 70em;
-    border: 0em solid;
-    overflow: hidden;
-}
-
-.first {
-    width: 35em;
-    float: left;
-    border: 0em solid;
-}
-
-.second {
-    width: 35em;
-    float: right;
-    border: 0em solid;
-}
-
-.card {
-    background-color: var(--box-bgcolor);
-}
-
-.seo-content {
-    background-color: var(--body-bgcolor);
-    color: var(--body-bgcolor);
-}
-
-body {
-    background-color: var(--body-bgcolor);
-    color: var(--body-color);
-}
-
-i {
-    padding: 18px 18px 18px 18px;
-}
-
-#typing {
-    padding: 10px;
-    font-size: 2.5vw;
-    white-space: nowrap;
-    overflow: hidden;
-    min-height: 80px;
-    width: 100%;
-    max-width: 1500px;    
-}
-
-.profile {
-    margin: 40px 10px 10px 2vw;
-    width: 5vw;
-    height: 5vw;
-}
-
-.cprofile {
-    margin-left: 3vw;
-}
-
-.card-text {
-    color: var(--body-color);
-}
-
-.book {
-    width: 50vw;
-    height: 32vw;
-}
-
-.cbook {
-    margin-left: 17vw;
-    text-align: justify;
-    text-justify: inter-word;
-    margin-top: 2.5vw;
-    font-size: 1.5vw;
+div#fa {
+    font-family: 'B Zar';
 }
